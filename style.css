@@ -5,6 +5,7 @@ body {
   background: linear-gradient(to right, #e4dcb383, #ffffff);
   font-family: "Iosevka Charon", monospace;
   font-style: normal;
+  color: #000;
 }
 .main-logo {
   width: 100px;
@@ -23,8 +24,8 @@ h1 {
 
 /*Navigation*/
 nav a {
-  background: #202324;
-  color: #ffffff;
+  background: #000;
+  color: #d4af37;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
@@ -35,6 +36,29 @@ main .teorico {
   column-count: 4;
 }
 
+.dojanes div {
+  border: 2px solid #000;
+  margin: 10px;
+  min-height: 270px;
+}
+
+.dojanes div::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dojanes div img {
+  float: left;
+  margin: 10px;
+}
+
+.dojanes div iframe {
+  float: right;
+  width: 50%;
+  height: 270px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 1.7rem;
@@ -43,12 +67,23 @@ main .teorico {
   main .teorico {
     column-count: 2;
   }
+
+  .dojanes div img {
+    max-width: 30%;
+  }
+
+  .dojanes div iframe {
+    float: none;
+    clear: both;
+    display: block;
+    width: 100%;
+  }
 }
 
 .teorico a {
   display: block;
-  background: #33595e;
-  color: #ffffff;
+  background: #000;
+  color: #d4af37;
   text-decoration: none;
   text-align: center;
   padding: 10px;
