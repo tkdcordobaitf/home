@@ -25,7 +25,7 @@
 <p>Giro hacia la izquierda</p>
 <a href="#" onclick="goTo(4)">2. Bloqueo Bajo</a>
 
-<script src="https://www.youtube.com/embed/weiDnCTeflM?si=XoZZFnwQdRzhPI4-"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
 
 <script>
   let player;
@@ -39,6 +39,7 @@
   }
 
   function goTo(seconds) {
+    if (!player) return;
     player.seekTo(seconds, true);
     player.playVideo();
   }
