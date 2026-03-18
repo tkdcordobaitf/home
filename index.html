@@ -15,5 +15,33 @@
 <a href="https://drive.google.com/file/d/1FtDcs5YyyZ3kCIo0jmiz7Latk1aaJBoi/view?usp=drive_link">Complemento teórico para examen de Danes</a>
     <br>
 <a href="https://drive.google.com/file/d/1Th0ZK8q6AYF4Ci3FkSxLRtxWRXeKJ1LD/view?usp=sharing">Teoría Gubs (v1)</a>
+
+<br>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/weiDnCTeflM?si=Jp70mZs8DNqqTIme" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <a href="#" onclick="goTo(3)">1. Puño frontal zona media</a>
+<p>Giro hacia la izquierda</p>
+<a href="#" onclick="goTo(4)">2. Bloqueo Bajo</a>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+  let player;
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      height: '315',
+      width: '560',
+      videoId: 'weiDnCTeflM'
+    });
+  }
+
+  function goTo(seconds) {
+    player.seekTo(seconds, true);
+    player.playVideo();
+  }
+</script>
+    
 </body>
 </html>
