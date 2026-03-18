@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Córdoba Taekwondo ITF</title>
+    <meta name="description" content="Córdoba Taekwondo ITF" />
+    <meta name="keywords" content="Córdoba, Taekwondo, Tkd, ITF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/icons/main-icon.png" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/icons/main-icon.png"
+        alt="Córdoba Taekwondo ITF"
+        class="main-logo"
+      />
+      <h1>Córdoba Taekwondo ITF</h1>
+    </header>
+    <nav>
+      <a href="index.html">Teórico</a>
+      <a href="tules.html">Tules</a>
+    </nav>
+    <main class="tules">
+      <h2>Tules</h2>
+
+      <div id="player"></div>
+
+      <br />
+
+      <a href="#" onclick="goTo(3)">1. Puño frontal zona media</a>
+      <p>Giro hacia la izquierda</p>
+      <a href="#" onclick="goTo(4)">2. Bloqueo Bajo</a>
+
+      <script src="https://www.youtube.com/iframe_api"></script>
+
+      <script>
+        let player;
+
+        function onYouTubeIframeAPIReady() {
+          player = new YT.Player("player", {
+            height: "315",
+            width: "560",
+            videoId: "weiDnCTeflM",
+          });
+        }
+
+        function goTo(seconds) {
+          if (!player) return;
+          player.seekTo(seconds, true);
+          player.pauseVideo();
+        }
+      </script>
+    </main>
+  </body>
+</html>

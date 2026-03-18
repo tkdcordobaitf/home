@@ -1,49 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Córdoba Taekwondo ITF</title>
-    <meta name="description" content="Córdoba Taekwondo ITF">
-    <meta name="keywords" content="Córdoba, Taekwondo, Tkd, ITF">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-<a href="https://drive.google.com/file/d/10gKg-xdc-ZCHlcvxryPNWyy0HyDxQuXH/view?usp=sharing">Enciclopedia del Taekwondo</a>
-  <br>
-<a href="https://drive.google.com/file/d/1uiRZWa_6Lf89YNlKpdsrjlAxgmQ7A_eg/view?usp=sharing">Manual Umpire</a>
-    <br>
-<a href="https://drive.google.com/file/d/1FtDcs5YyyZ3kCIo0jmiz7Latk1aaJBoi/view?usp=drive_link">Complemento teórico para examen de Danes</a>
-    <br>
-<a href="https://drive.google.com/file/d/1Th0ZK8q6AYF4Ci3FkSxLRtxWRXeKJ1LD/view?usp=sharing">Teoría Gubs (v1)</a>
-
-<br>
-<div id="player"></div>
-
-<br>
-
-<a href="#" onclick="goTo(3)">1. Puño frontal zona media</a>
-<p>Giro hacia la izquierda</p>
-<a href="#" onclick="goTo(4)">2. Bloqueo Bajo</a>
-
-<script src="https://www.youtube.com/iframe_api"></script>
-
-<script>
-  let player;
-
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-      height: '315',
-      width: '560',
-      videoId: 'weiDnCTeflM'
-    });
-  }
-
-  function goTo(seconds) {
-    if (!player) return;
-    player.seekTo(seconds, true);
-    player.pauseVideo();
-  }
-</script>
-    
-</body>
+    <meta name="description" content="Córdoba Taekwondo ITF" />
+    <meta name="keywords" content="Córdoba, Taekwondo, Tkd, ITF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/icons/main-icon.png" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/icons/main-icon.png"
+        alt="Córdoba Taekwondo ITF"
+        class="main-logo"
+      />
+      <h1>Córdoba Taekwondo ITF</h1>
+    </header>
+    <nav>
+      <a href="index.html">Teórico</a>
+      <a href="tules.html">Tules</a>
+    </nav>
+    <main>
+      <h2>Teórico</h2>
+      <div class="teorico">
+        <a
+          href="https://drive.google.com/file/d/10gKg-xdc-ZCHlcvxryPNWyy0HyDxQuXH/view?usp=sharing"
+        >
+          <img
+            src="images/icons/icon_enciclopedia.png"
+            alt="Enciclopedia del Taekwondo"
+          />
+          <p>Enciclopedia del Taekwondo</p>
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1uiRZWa_6Lf89YNlKpdsrjlAxgmQ7A_eg/view?usp=sharing"
+        >
+          <img src="images/icons/icon_umpire.png" alt="Manual Umpire" />
+          <p>Manual Umpire</p>
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1FtDcs5YyyZ3kCIo0jmiz7Latk1aaJBoi/view?usp=drive_link"
+        >
+          <img
+            src="images/icons/icon_manual.png"
+            alt="Complemento teórico para examen de Danes"
+          />
+          <p>Complemento teórico para Danes</p>
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1Th0ZK8q6AYF4Ci3FkSxLRtxWRXeKJ1LD/view?usp=sharing"
+        >
+          <img src="images/icons/icon_manual.png" alt="Teoría Gubs (v1)" />
+          <p>Teoría Gubs (v1)</p>
+        </a>
+      </div>
+    </main>
+  </body>
 </html>
