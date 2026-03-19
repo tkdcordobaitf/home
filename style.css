@@ -7,6 +7,15 @@ body {
   font-style: normal;
   color: #000;
 }
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  margin: 5px;
+  width: 40%;
+}
+
 .main-logo {
   width: 100px;
   height: 100px;
@@ -110,4 +119,90 @@ main .teorico {
 
 .teorico a img {
   width: 100%;
+}
+
+/*Tules*/
+.tul-movements {
+  max-width: 560px;
+}
+
+.tul-movement-row {
+  margin-bottom: 0.35rem;
+}
+
+.tul-movement-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.4rem 0.5rem;
+  cursor: pointer;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+}
+
+.tul-movement-btn:hover {
+  background: #f5f5f5;
+}
+
+.gubs {
+  column-count: 2;
+  column-gap: 10px;
+  width: 50%;
+}
+
+.danes {
+  column-count: 3;
+  column-gap: 10px;
+  width: 80%;
+}
+
+.white-yellow-belt {
+  background: linear-gradient(to right, #ffffff, #d4af37);
+  color: #000;
+}
+
+.yellow-belt {
+  background: #d4af37;
+  color: #000;
+}
+
+.yellow-green-belt {
+  background: linear-gradient(to right, #d4af37, #507250);
+  color: #000;
+}
+
+.green-belt {
+  background: #507250;
+  color: #000;
+}
+
+.green-blue-belt {
+  background: linear-gradient(to right, #507250, #1e05aa);
+  color: #ffffff;
+}
+
+.blue-belt {
+  background: #1e05aa;
+  color: #ffffff;
+}
+
+.blue-red-belt {
+  background: linear-gradient(to right, #1e05aa, #aa0505);
+  color: #ffffff;
+}
+
+.red-belt {
+  background: #aa0505;
+  color: #ffffff;
+}
+
+.red-black-belt {
+  background: linear-gradient(to right, #aa0505, #000);
+  color: #ffffff;
+}
+
+.black-belt {
+  background: #000;
+  color: #ffffff;
 }

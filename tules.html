@@ -33,14 +33,44 @@
     </nav>
     <main class="tules">
       <h2>Tules</h2>
-
+      <h3>Gubs</h3>
+      <div class="gubs">
+        <button type="button" class="white-belt">Saju Jirugi</button>
+        <button type="button" class="white-belt">Saju Makgi</button>
+        <button
+          type="button"
+          class="white-yellow-belt"
+          onclick="selectTul('chonji')"
+        >
+          Chon-ji
+        </button>
+        <button type="button" class="yellow-belt">Dan Gun</button>
+        <button type="button" class="yellow-green-belt">Do San</button>
+        <button type="button" class="green-belt">Won-Hyo</button>
+        <button type="button" class="green-blue-belt">Yul-Gok</button>
+        <button type="button" class="blue-belt">Joong-Gun</button>
+        <button type="button" class="blue-red-belt">Toi-Gye</button>
+        <button type="button" class="red-belt">Hwa-Rang</button>
+        <button type="button" class="red-black-belt">Choong-Moo</button>
+      </div>
+      <h3>Danes</h3>
+      <div class="danes">
+        <button type="button" class="black-belt">Kwan-Gae</button>
+        <button type="button" class="black-belt">Po-Eum</button>
+        <button type="button" class="black-belt">Ge-Baek</button>
+        <button type="button" class="black-belt">Eui-Am</button>
+        <button type="button" class="black-belt">Choong-Jang</button>
+        <button type="button" class="black-belt">Juche</button>
+        <button type="button" class="black-belt">Choi-yong</button>
+        <button type="button" class="black-belt">Sam-Il</button>
+        <button type="button" class="black-belt">Yoo-Sin</button>
+      </div>
+      <br /><br />
       <div id="player"></div>
 
       <br />
 
-      <a href="#" onclick="goTo(3)">1. Puño frontal zona media</a>
-      <p>Giro hacia la izquierda</p>
-      <a href="#" onclick="goTo(4)">2. Bloqueo Bajo</a>
+      <div id="tul-movements" class="tul-movements"></div>
 
       <script src="https://www.youtube.com/iframe_api"></script>
       <script src="script.js"></script>
