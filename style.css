@@ -186,6 +186,11 @@ main .teorico {
   color: #ffffff;
 }
 
+.on-progress {
+  background: #46443d;
+  color: #ffffff;
+}
+
 /*Media Queries*/
 @media (max-width: 768px) {
   h1 {
