@@ -30,6 +30,7 @@
       <a href="index.html">Teórico</a>
       <a href="dojans.html">Dojanes</a>
       <a href="tules.html">Tules</a>
+      <a href="tienda.html">Tienda</a>
     </nav>
     <main class="tules">
       <h2>Tules</h2>
@@ -55,7 +56,9 @@
       </div>
       <h3>Danes</h3>
       <div class="danes">
-        <button type="button" class="black-belt">Kwan-Gae</button>
+        <button type="button" class="black-belt" onclick="selectTul('kwangae')">
+          Kwan-Gae
+        </button>
         <button type="button" class="black-belt">Po-Eum</button>
         <button type="button" class="black-belt">Ge-Baek</button>
         <button type="button" class="black-belt">Eui-Am</button>
@@ -66,6 +69,14 @@
         <button type="button" class="black-belt">Yoo-Sin</button>
       </div>
       <br /><br />
+      <h3 id="tul-name"></h3>
+      <p><strong>Descripción:</strong> <span id="tul-description"></span></p>
+      <p><strong>Cinturón:</strong> <span id="tul-belt"></span></p>
+      <p><strong>Diagrama:</strong> <span id="tul-diagram"></span></p>
+      <p>
+        <strong>Cantidad de Movimientos:</strong>
+        <span id="tul-qty-movements"></span>
+      </p>
       <div id="player"></div>
 
       <br />
