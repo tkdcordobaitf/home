@@ -25,7 +25,7 @@ const tules = {
   sajujirugi: {
     name: "Saju Jirugi",
     gup: "Gup 10",
-    video: "",
+    video: "weiDnCTeflM",
     description: "Cruz de Ataque.",
     belt: "Blanco",
     diagram: "Cruz",
@@ -39,7 +39,7 @@ const tules = {
   sajumakgi: {
     name: "Saju Makgi",
     gup: "Gup 10",
-    video: "",
+    video: "v9j4dN6Kzeo",
     description: "Cruz de defensa.",
     belt: "Blanco",
     diagram: "Cruz",
@@ -108,7 +108,7 @@ const tules = {
   dangun: {
     name: "Dan Gun",
     gup: "Gup 8",
-    video: "",
+    video: "4W9lza3V5R4",
     description:
       "Es el nombre del Santo Legendario fundador de Corea en el 2333 A.C. (Antes de Cristo)",
     belt: "Amarillo",
@@ -123,7 +123,7 @@ const tules = {
   dosan: {
     name: "Do San",
     gup: "Gup 7",
-    video: "",
+    video: "ofN5mdiQqMQ",
     description:
       "Es el seudónim del patriota Ahn-Chan-Ho (1876-1938) que luchó por la educación e independencia de Corea. Los 24 movimientos representan su vida.",
     belt: "Amarillo punta Verde",
@@ -138,7 +138,7 @@ const tules = {
   wonhyo: {
     name: "Won-Hyo",
     gup: "Gup 6",
-    video: "",
+    video: "xjLmmyvNWT8",
     description:
       "Monje que introdujo el budismo durante la dinastía silla en el 686 A.C. (Antes de Cristo)",
     belt: "Verde",
@@ -153,7 +153,7 @@ const tules = {
   yulgok: {
     name: "Yul-Gok",
     gup: "Gup 5",
-    video: "",
+    video: "ccOy9Z1hZVk",
     description:
       "Seudónimo del maestro Yil, apodado el “Confucio de corea”. Los 38 movimientos representan la latitud donde nació. El diagrama representa al maestro.",
     belt: "Verde punta Azul",
@@ -168,7 +168,7 @@ const tules = {
   joonggun: {
     name: "Joong-Gun",
     gup: "Gup 4",
-    video: "",
+    video: "Lc3aI94y1JM",
     description:
       "Se opuso a la fusión de Corea-Japón. Los 32 movimientos representan la edad a la que murió.",
     belt: "Azul",
@@ -183,7 +183,7 @@ const tules = {
   toigye: {
     name: "Toi-Gye",
     gup: "Gup 3",
-    video: "",
+    video: "P_6i96pDZLw",
     description:
       "Seudónimo de Yi Hang, una autoridad del neo confucionismo. Los 37 movimientos representan la latitud donde nació. El diagrama representa al maestro.",
     belt: "Azul punta Roja",
@@ -198,7 +198,7 @@ const tules = {
   hwarang: {
     name: "Hwa-Rang",
     gup: "Gup 2",
-    video: "",
+    video: "m7UEsVD-hpg",
     description:
       "Grupo de jóvenes guerreros creados durante la dinastía silla hace más de 1350 años, al comienzo del siglo VII. Los 29 movimientos hacen referencia a la división 29 de infantería, donde el Taekwondo alcanzó su madurez.",
     belt: "Rojo",
@@ -213,7 +213,7 @@ const tules = {
   choongmoo: {
     name: "Choong-Moo",
     gup: "Gup 1",
-    video: "",
+    video: "L35mUDanJtc",
     description:
       "Seudónimo del almirante Yi son-sin de la dinastía Yi. Se le atribuye haber inventado la primera nave de combate blindada en 1592, la que sería precursora del submarino. El tul finaliza con un ataque con la mano izquierda para simbolizar tu tremenda muerte, por la que no tuvo tiempo de demostrar su lealtad al rey.",
     belt: "Rojo punta Negra",
@@ -424,7 +424,7 @@ const tules = {
   gebaek: {
     name: "Ge-Baek",
     dan: "I Dan",
-    video: "",
+    video: "SHcNcUaaxv8",
     description:
       "Recibe el nombre de Ge-Baek gran general de la dinastía Baek Je. El diagrama representa su severa y estricta disciplina militar.",
     belt: "Negro I DAN",
@@ -439,7 +439,7 @@ const tules = {
   euiam: {
     name: "Eui-Am",
     dan: "II Dan",
-    video: "",
+    video: "inMKh0lC_KI",
     description:
       "Es el pseudónimo de SibByong Hi, líder del movimiento de independencia de Corea (10 de Marzo de 1919). Los 45 movimientos se relacionan con su edad cuando cambió el nombre de Dong Hak( Cultura Oriental) por el de ChondoKyo (Religión de los Caminos del Cielo) en 1905. El diagrama representa su indomable espíritu dedicado a la prosperidad de su nación.",
     belt: "Negro II DAN",
@@ -454,7 +454,7 @@ const tules = {
   choongjang: {
     name: "Choong-Jang",
     dan: "II Dan",
-    video: "",
+    video: "cWZL2LErGTg",
     description:
       "Es el pseudónimo dado al General Kim DukRyang que vivió durante la Dinastía Yi en el siglo XV. Este modelo termina con un ataque de mano izquierda que simboliza la tragedia de su muerte en prisión a los 27 años, antes de lograr su plena madurez.",
     belt: "Negro II DAN",
@@ -469,7 +469,7 @@ const tules = {
   juche: {
     name: "Juche",
     dan: "II Dan",
-    video: "",
+    video: "1tOwFhxw4FE",
     description:
       "Es una idea filosófica que el hombre es el amo de todo y decide todo. Es decir que el hombre es el amo del mundo y de su propio destino. Esta idea se dice fue sacada en la montaña de Baekdu que simboliza el espíritu de la gente coreana. El modelo representa la montaña de Baekdu.",
     belt: "Negro II DAN",
@@ -484,7 +484,7 @@ const tules = {
   choiyong: {
     name: "Choi-yong",
     dan: "III Dan",
-    video: "",
+    video: "PZXdNG3Bs4U",
     description:
       "El nombre proviene del General Choi Yong comandante en Jefe de las Fuerzas Armadas durante el Siglo XIV en la Dinastía Koryo,muy respetado por su lealtad, patriotismo y humildad. Fue ejecutado por sus comandantes subordinados encabezados por el General YiSungGae que después se convirtió en el primer rey de la Dinastía Yi",
     belt: "Negro III DAN",
@@ -739,7 +739,7 @@ const tules = {
   yongae: {
     name: "Yon-Gae",
     dan: "IV Dan",
-    video: "",
+    video: "8wX0JzYe8n0",
     description:
       "Proviene del nombre del famoso general de la dinastía de Koguryo Yon Gae Somoon. Los 49 movimientos se refieren a los dos últimas cifras del año 649 cuando obligó a la dnastía Tang a abandonar Corea, destruyendo casi a 300.000 de sus tropas en Ansi Sung.",
     belt: "Negro IV DAN",
@@ -754,7 +754,7 @@ const tules = {
   ulji: {
     name: "Ul-Ji",
     dan: "IV Dan",
-    video: "",
+    video: "ftELWqMPfZ4",
     description:
       "Proviene del nombre del general Ul-Ji Moon Dok, que defensió Corea con valentía contra la invasión de Tang y su ejército de casi un millón de soldados dirigidos por Yang Je en el año 612 A.C. Ul Ji utilizando técnicas de disuación y guerrilla pudo diezmar un alto porcentajo de la fuerza. En diagrama evoca su nombre. Los 42 movimientos representan la edad del autor cuando creó este tul.",
     belt: "Negro IV DAN",
@@ -769,7 +769,7 @@ const tules = {
   moonmoo: {
     name: "Moon-Moo",
     dan: "IV Dan",
-    video: "",
+    video: "vCwsyv0-Lno",
     description:
       "Hace honor al 30 rey de la dinastía Silla. Su cuerpo fue enterrado cerca de Dae Wang Am (roca del gran rey). Según su voluntad pusieron su cuerpo en el mar 'donde mi alma defenderá para siempre mi país contra los japoneses'. Se dice que Sok Gul Am (cueva) fue construido para guardar su tumba. El Sok Gul Am es un buen ejemplo de la cultura de la dinastía Silla. Los 61 movimientos simbolizan las dos últimos cifras del año 661, cuando Moon-Moo subió al trono.",
     belt: "Negro IV DAN",
@@ -784,7 +784,7 @@ const tules = {
   sosan: {
     name: "So-San",
     dan: "V Dan",
-    video: "",
+    video: "8xFGvAzDMN0",
     description:
       "Es el seudónimo del célebre monje Choi Hyongh Ung (1520-1604) durante la dinastía Lee. Los 72 movimientos se refieren a su edad cuando organizó un cuerpo de monjes soldados con la ayuda de su alumno Sa Myung Dang. Esos monjes soldados ayudaron a expulsar los piratas japoneses que controlaban la mayor parte de la península en 1592.",
     belt: "Negro V DAN",
@@ -799,7 +799,7 @@ const tules = {
   sejong: {
     name: "Se-Jong",
     dan: "V Dan",
-    video: "",
+    video: "4q-O1rxDyxI",
     description:
       "Proviene del nombre del más grande de los reyes coreanos, Se-Jong, quien inventó el alfabeto coreano en 1443, y quien era, también, un metereólogo famoso. El diagrama significa 'rey', mientras que los 24 movimientos se refieren a las 24 letras del alfabeto coreano.",
     belt: "Negro V DAN",
@@ -814,7 +814,7 @@ const tules = {
   tongil: {
     name: "Tong-Il",
     dan: "VI Dan",
-    video: "",
+    video: "2M_8jaX_Okg",
     description:
       "Denota la resolución de reunificar Corea, dividida desde 1945. El diagrama simboliza la homogeneidad de raza.",
     belt: "Negro V DAN",
@@ -832,11 +832,13 @@ let player;
 /** Tul cuyo video y tiempos usan los movimientos (ej. "chonji") */
 let activeTulKey = null;
 
-/** Convierte formato YouTube (#t=0m01s) a segundos para la API */
+/** Convierte formato YouTube (#t=0m01s o 0m01.234s) a segundos para la API */
 function youtubeTimeToSeconds(t) {
-  const m = String(t).match(/^(\d+)m(\d+)s?$/);
+  const m = String(t)
+    .trim()
+    .match(/^(\d+)m(\d+(?:\.\d+)?)s?$/i);
   if (!m) return 0;
-  return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+  return parseInt(m[1], 10) * 60 + parseFloat(m[2]);
 }
 
 function onYouTubeIframeAPIReady() {
