@@ -105,6 +105,10 @@ main .teorico {
 }
 
 /*Tules*/
+#tul-details{
+  display: none;
+}
+
 .tul-movements {
   max-width: 560px;
 }
@@ -225,8 +229,8 @@ main .teorico {
     width: 80%;
   }
 
-  #player iframe {
-    width: 95%;
+  #player {
+    width: 100%;
   }
 
   #tul-movements {
